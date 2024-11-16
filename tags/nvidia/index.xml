@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvidia | Sanjay Kariyappa</title>
+    <link>http://localhost:1313/tags/nvidia/</link>
+      <atom:link href="http://localhost:1313/tags/nvidia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nvidia</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu6199962971166310543.png</url>
+      <title>Nvidia</title>
+      <link>http://localhost:1313/tags/nvidia/</link>
+    </image>
+    
+    <item>
+      <title>🚀 I&#39;ll be joining Nvidia Research to work on AI Security and Privacy.</title>
+      <link>http://localhost:1313/post/joining-nvidia/</link>
+      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/joining-nvidia/</guid>
+      <description>&lt;p&gt;After almost 2 years at JP Morgan&amp;rsquo;s &lt;a href=&#34;https://www.jpmorgan.com/technology/artificial-intelligence/initiatives/explainable-ai-center-of-excellence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Explainable AI CoE&lt;/a&gt;, I&amp;rsquo;ve decided to take up a new role at Nvidia Research, where I&amp;rsquo;ll be focusing on AI Security and Privacy.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
