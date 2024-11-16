@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Explainable AI | Sanjay Kariyappa</title>
-    <link>http://localhost:1313/tags/explainable-ai/</link>
-      <atom:link href="http://localhost:1313/tags/explainable-ai/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tags/explainable-ai/</link>
+      <atom:link href="/tags/explainable-ai/index.xml" rel="self" type="application/rss+xml" />
     <description>Explainable AI</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu6199962971166310543.png</url>
+      <url>/media/icon_hu6199962971166310543.png</url>
       <title>Explainable AI</title>
-      <link>http://localhost:1313/tags/explainable-ai/</link>
+      <link>/tags/explainable-ai/</link>
     </image>
     
     <item>
       <title>🎉 Our work &#34;Progressive Inference- Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions&#34; was accepted at ICML 2024!</title>
-      <link>http://localhost:1313/post/paper-pi/</link>
+      <link>/post/paper-pi/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/paper-pi/</guid>
+      <guid>/post/paper-pi/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;This paper proposes Progressive inference–a framework to explain the predictions of decoder-only transformer models trained to perform sequence classification tasks. Our work is based on the insight that the classification head of a decoder-only model can be used to make intermediate predictions by evaluating them at different points in the input sequence. Due to the masked attention mechanism used in decoder-only models, these intermediate predictions only depend on the tokens seen before the inference point, allowing us to obtain the model’s prediction on a masked input sub-sequence, with negligible computational overheads. We develop two methods to provide sub-sequence level attributions using this core insight. First, we propose Single Pass-Progressive Inference (SP-PI) to compute attributions by simply taking the difference between intermediate predictions. Second, we exploit a connection with Kernel SHAP to develop Multi Pass-Progressive Inference (MP-PI); this uses intermediate predictions from multiple masked versions of the input to compute higher-quality attributions that approximate SHAP values. We perform studies on several text classification datasets to demonstrate that our proposal provides better explanations compared to prior work, both in the single-pass and multi-pass settings.&lt;/p&gt;
 &lt;p&gt;Check out our &lt;a href=&#34;https://proceedings.mlr.press/v235/kariyappa24a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://icml.cc/media/PosterPDFs/ICML%202024/33394.png?t=1719282976.20858&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster&lt;/a&gt;&lt;/p&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>🎉 Our work &#34;SHAP@k- Efficient and Probably Approximately Correct (PAC) Identification of Top-K Features&#34; was accepted for an oral presentation at AAAI 2024!</title>
-      <link>http://localhost:1313/post/paper-shapk/</link>
+      <link>/post/paper-shapk/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/paper-shapk/</guid>
+      <guid>/post/paper-shapk/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The SHAP framework provides a principled method to explain the predictions of a model by computing feature importance. Motivated by applications in finance, we introduce the Top-k Identification Problem (TkIP) (and its ordered variant TkIP- O), where the objective is to identify the subset (or ordered subset for TkIP-O) of k features corresponding to the highest SHAP values with PAC guarantees. While any sampling-based method that estimates SHAP values (such as KernelSHAP and SamplingSHAP) can be trivially adapted to solve TkIP, doing so is highly sample inefficient. Instead, we leverage the connection between SHAP values and multi-armed bandits (MAB) to show that both TkIP and TkIP-O can be reduced to variants of problems in MAB literature. This reduction allows us to use insights from the MAB literature to develop sample-efficient variants of KernelSHAP and SamplingSHAP. We propose KernelSHAP@k and SamplingSHAP@k for solving TkIP; along with KernelSHAP-O and SamplingSHAP-O to solve the ordering problem in TkIP-O. We perform extensive experiments using several credit-related datasets to show that our methods offer significant improvements of up to 40× in sample efficiency and 39× in runtime.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a href=&#34;https://ojs.aaai.org/index.php/AAAI/article/view/29205/30274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://underline.io/lecture/93128-shapatk-efficient-and-probably-approximately-correct-pac-identification-of-top-k-features&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;talk&lt;/a&gt;&lt;/p&gt;

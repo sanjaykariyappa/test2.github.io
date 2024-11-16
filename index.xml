@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sanjay Kariyappa</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Sanjay Kariyappa</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu6199962971166310543.png</url>
+      <url>/media/icon_hu6199962971166310543.png</url>
       <title>Sanjay Kariyappa</title>
-      <link>http://localhost:1313/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/event/example/</link>
+      <link>/event/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
+      <guid>/event/example/</guid>
       <description>&lt;div class=&#34;flex px-4 py-3 mb-6 rounded-md bg-primary-100 dark:bg-primary-900&#34;&gt;
 &lt;span class=&#34;pr-3 pt-1 text-primary-600 dark:text-primary-300&#34;&gt;
   &lt;svg height=&#34;24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;1.5&#34; d=&#34;m11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0m-9-3.75h.008v.008H12z&#34;/&gt;&lt;/svg&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>🎉 Our work &#34;Progressive Inference- Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions&#34; was accepted at ICML 2024!</title>
-      <link>http://localhost:1313/post/paper-pi/</link>
+      <link>/post/paper-pi/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/paper-pi/</guid>
+      <guid>/post/paper-pi/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;This paper proposes Progressive inference–a framework to explain the predictions of decoder-only transformer models trained to perform sequence classification tasks. Our work is based on the insight that the classification head of a decoder-only model can be used to make intermediate predictions by evaluating them at different points in the input sequence. Due to the masked attention mechanism used in decoder-only models, these intermediate predictions only depend on the tokens seen before the inference point, allowing us to obtain the model’s prediction on a masked input sub-sequence, with negligible computational overheads. We develop two methods to provide sub-sequence level attributions using this core insight. First, we propose Single Pass-Progressive Inference (SP-PI) to compute attributions by simply taking the difference between intermediate predictions. Second, we exploit a connection with Kernel SHAP to develop Multi Pass-Progressive Inference (MP-PI); this uses intermediate predictions from multiple masked versions of the input to compute higher-quality attributions that approximate SHAP values. We perform studies on several text classification datasets to demonstrate that our proposal provides better explanations compared to prior work, both in the single-pass and multi-pass settings.&lt;/p&gt;
 &lt;p&gt;Check out our &lt;a href=&#34;https://proceedings.mlr.press/v235/kariyappa24a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://icml.cc/media/PosterPDFs/ICML%202024/33394.png?t=1719282976.20858&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster&lt;/a&gt;&lt;/p&gt;
@@ -46,17 +46,17 @@
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Our work &#34;Information Flow Control in Machine Learning through Modular Model Architecture&#34; was accepted at Usenix Security 2024!</title>
-      <link>http://localhost:1313/post/paper-ifc/</link>
+      <link>/post/paper-ifc/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/paper-ifc/</guid>
+      <guid>/post/paper-ifc/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;In today&amp;rsquo;s machine learning (ML) models, any part of the training data can affect the model output. This lack of control for information flow from training data to model output is a major obstacle in training models on sensitive data when access control only allows individual users to access a subset of data. To enable secure machine learning for access-controlled data, we propose the notion of information flow control for machine learning, and develop an extension to the Transformer language model architecture that strictly adheres to the IFC definition we propose. Our architecture controls information flow by limiting the influence of training data from each security domain to a single expert module, and only enables a subset of experts at inference time based on the access control policy. The evaluation using large text and code datasets show that our proposed parametric IFC architecture has minimal (1.9%) performance overhead and can significantly improve model accuracy (by 38% for the text dataset, and between 44%–62% for the code datasets) by enabling training on access-controlled data.&lt;/p&gt;
 &lt;p&gt;Check out our &lt;a href=&#34;https://www.usenix.org/system/files/usenixsecurity24-tiwari.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/YNe__GrgBBA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;
@@ -65,9 +65,9 @@
     
     <item>
       <title>🎉 Our work &#34;SHAP@k- Efficient and Probably Approximately Correct (PAC) Identification of Top-K Features&#34; was accepted for an oral presentation at AAAI 2024!</title>
-      <link>http://localhost:1313/post/paper-shapk/</link>
+      <link>/post/paper-shapk/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/paper-shapk/</guid>
+      <guid>/post/paper-shapk/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;The SHAP framework provides a principled method to explain the predictions of a model by computing feature importance. Motivated by applications in finance, we introduce the Top-k Identification Problem (TkIP) (and its ordered variant TkIP- O), where the objective is to identify the subset (or ordered subset for TkIP-O) of k features corresponding to the highest SHAP values with PAC guarantees. While any sampling-based method that estimates SHAP values (such as KernelSHAP and SamplingSHAP) can be trivially adapted to solve TkIP, doing so is highly sample inefficient. Instead, we leverage the connection between SHAP values and multi-armed bandits (MAB) to show that both TkIP and TkIP-O can be reduced to variants of problems in MAB literature. This reduction allows us to use insights from the MAB literature to develop sample-efficient variants of KernelSHAP and SamplingSHAP. We propose KernelSHAP@k and SamplingSHAP@k for solving TkIP; along with KernelSHAP-O and SamplingSHAP-O to solve the ordering problem in TkIP-O. We perform extensive experiments using several credit-related datasets to show that our methods offer significant improvements of up to 40× in sample efficiency and 39× in runtime.&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a href=&#34;https://ojs.aaai.org/index.php/AAAI/article/view/29205/30274&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://underline.io/lecture/93128-shapatk-efficient-and-probably-approximately-correct-pac-identification-of-top-k-features&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;talk&lt;/a&gt;&lt;/p&gt;
@@ -76,65 +76,65 @@
     
     <item>
       <title>Information flow control in machine learning through modular model architecture</title>
-      <link>http://localhost:1313/publication/tiwari-2024-information/</link>
+      <link>/publication/tiwari-2024-information/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/tiwari-2024-information/</guid>
+      <guid>/publication/tiwari-2024-information/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Progressive Inference: Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions</title>
-      <link>http://localhost:1313/publication/kariyappa-2024-progressive/</link>
+      <link>/publication/kariyappa-2024-progressive/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2024-progressive/</guid>
+      <guid>/publication/kariyappa-2024-progressive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SHAP@ k: Efficient and Probably Approximately Correct (PAC) Identification of Top-k Features</title>
-      <link>http://localhost:1313/publication/kariyappa-2024-shap/</link>
+      <link>/publication/kariyappa-2024-shap/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2024-shap/</guid>
+      <guid>/publication/kariyappa-2024-shap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
+      <link>/project/pandas/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
+      <guid>/project/pandas/</guid>
       <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
+      <link>/project/pytorch/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
+      <guid>/project/pytorch/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
+      <link>/project/scikit/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
+      <guid>/project/scikit/</guid>
       <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learn JavaScript</title>
-      <link>http://localhost:1313/teaching/js/</link>
+      <link>/teaching/js/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/js/</guid>
+      <guid>/teaching/js/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -181,7 +181,7 @@
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;./teaching/js/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -258,9 +258,9 @@ data.head()
     
     <item>
       <title>Learn Python</title>
-      <link>http://localhost:1313/teaching/python/</link>
+      <link>/teaching/python/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/python/</guid>
+      <guid>/teaching/python/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hugoblox.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -307,7 +307,7 @@ data.head()
 
 
 &lt;audio controls &gt;
-  &lt;source src=&#34;http://localhost:1313/teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
+  &lt;source src=&#34;./teaching/python/ambient-piano.mp3&#34; type=&#34;audio/mpeg&#34;&gt;
 &lt;/audio&gt;
 
 &lt;h2 id=&#34;test-students&#34;&gt;Test students&lt;/h2&gt;
@@ -384,113 +384,113 @@ data.head()
     
     <item>
       <title>Bounding the invertibility of privacy-preserving instance encoding using fisher information</title>
-      <link>http://localhost:1313/publication/maeng-2024-bounding/</link>
+      <link>/publication/maeng-2024-bounding/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/maeng-2024-bounding/</guid>
+      <guid>/publication/maeng-2024-bounding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cocktail party attack: Breaking aggregation-based privacy in federated learning using independent component analysis</title>
-      <link>http://localhost:1313/publication/kariyappa-2023-cocktail/</link>
+      <link>/publication/kariyappa-2023-cocktail/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2023-cocktail/</guid>
+      <guid>/publication/kariyappa-2023-cocktail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploit: Extracting private labels in split learning</title>
-      <link>http://localhost:1313/publication/kariyappa-2023-exploit/</link>
+      <link>/publication/kariyappa-2023-exploit/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2023-exploit/</guid>
+      <guid>/publication/kariyappa-2023-exploit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy-Preserving Algorithmic Recourse</title>
-      <link>http://localhost:1313/publication/pentyala-2023-privacy/</link>
+      <link>/publication/pentyala-2023-privacy/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pentyala-2023-privacy/</guid>
+      <guid>/publication/pentyala-2023-privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bespoke cache enclaves: Fine-grained and scalable isolation from cache side-channels via flexible set-partitioning</title>
-      <link>http://localhost:1313/publication/saileshwar-2021-bespoke/</link>
+      <link>/publication/saileshwar-2021-bespoke/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/saileshwar-2021-bespoke/</guid>
+      <guid>/publication/saileshwar-2021-bespoke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enabling inference privacy with adaptive noise injection</title>
-      <link>http://localhost:1313/publication/kariyappa-2021-enabling/</link>
+      <link>/publication/kariyappa-2021-enabling/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2021-enabling/</guid>
+      <guid>/publication/kariyappa-2021-enabling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maze: Data-free model stealing attack using zeroth-order gradient estimation</title>
-      <link>http://localhost:1313/publication/kariyappa-2021-maze/</link>
+      <link>/publication/kariyappa-2021-maze/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2021-maze/</guid>
+      <guid>/publication/kariyappa-2021-maze/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noise-resilient DNN: tolerating noise in PCM-based AI accelerators via noise-aware training</title>
-      <link>http://localhost:1313/publication/kariyappa-2021-noise/</link>
+      <link>/publication/kariyappa-2021-noise/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2021-noise/</guid>
+      <guid>/publication/kariyappa-2021-noise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Protecting dnns from theft using an ensemble of diverse models</title>
-      <link>http://localhost:1313/publication/kariyappa-2021-protecting/</link>
+      <link>/publication/kariyappa-2021-protecting/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2021-protecting/</guid>
+      <guid>/publication/kariyappa-2021-protecting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Semantics Preserving Adversarial Examples</title>
-      <link>http://localhost:1313/publication/kariyappasemantics/</link>
+      <link>/publication/kariyappasemantics/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappasemantics/</guid>
+      <guid>/publication/kariyappasemantics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Defending against model stealing attacks with adaptive misinformation</title>
-      <link>http://localhost:1313/publication/kariyappa-2020-defending/</link>
+      <link>/publication/kariyappa-2020-defending/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2020-defending/</guid>
+      <guid>/publication/kariyappa-2020-defending/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enabling transparent memory-compression for commodity memory systems</title>
-      <link>http://localhost:1313/publication/young-2019-enabling/</link>
+      <link>/publication/young-2019-enabling/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/young-2019-enabling/</guid>
+      <guid>/publication/young-2019-enabling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improving adversarial robustness of ensembles with diversity training</title>
-      <link>http://localhost:1313/publication/kariyappa-2019-improving/</link>
+      <link>/publication/kariyappa-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/kariyappa-2019-improving/</guid>
+      <guid>/publication/kariyappa-2019-improving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reducing the impact of phase-change memory conductance drift on the inference of large-scale hardware neural networks</title>
-      <link>http://localhost:1313/publication/ambrogio-2019-reducing/</link>
+      <link>/publication/ambrogio-2019-reducing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ambrogio-2019-reducing/</guid>
+      <guid>/publication/ambrogio-2019-reducing/</guid>
       <description></description>
     </item>
     
