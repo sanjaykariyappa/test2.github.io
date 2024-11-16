@@ -1,29 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" preserveAspectRatio="none">
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bgGradient" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#18181f" />
-      <stop offset="100%" stop-color="#0d0d12" />
+    <linearGradient id="gradVertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#000000; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a50; stop-opacity:1" />
     </linearGradient>
-    <!-- Circular Glow -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#2d2d3e" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#0d0d12" stop-opacity="0" />
-    </radialGradient>
-    <!-- Subtle Line Patterns -->
-    <pattern id="linePattern" patternUnits="userSpaceOnUse" width="20" height="20">
-      <path d="M0 20 L20 0 M-10 10 L10 -10 M10 30 L30 10" stroke="#2c2c3c" stroke-width="0.5" />
-    </pattern>
   </defs>
-  <!-- Background -->
-  <rect width="800" height="400" fill="url(#bgGradient)" />
-  <!-- Circular Glow Effects -->
-  <circle cx="200" cy="150" r="200" fill="url(#glow)" />
-  <circle cx="600" cy="300" r="250" fill="url(#glow)" />
-  <!-- Diagonal Line Pattern -->
-  <rect width="800" height="400" fill="url(#linePattern)" opacity="0.1" />
-  <!-- Abstract Wave -->
-  <path d="M0 250 Q200 150 400 250 T800 250 V400 H0 Z" fill="#222233" opacity="0.4" />
-  <path d="M0 300 Q200 200 400 300 T800 300 V400 H0 Z" fill="#2e2e3e" opacity="0.6" />
-  <path d="M0 350 Q200 250 400 350 T800 350 V400 H0 Z" fill="#39394f" opacity="0.3" />
+  <rect width="1440" height="800" fill="url(#gradVertical)" />
+  <path d="M0,400 C400,350 800,450 1200,400 C1600,350 2000,450 2400,400 L2400,800 L0,800 Z" fill="#3a3a62" opacity="0.2" />
+  <path d="M0,500 C400,550 800,350 1200,500 C1600,650 2000,400 2400,500 L2400,800 L0,800 Z" fill="#4a4a73" opacity="0.15" />
+  <path d="M0,600 C400,650 800,550 1200,600 C1600,650 2000,600 2400,600 L2400,800 L0,800 Z" fill="#3a3a62" opacity="0.1" />
 </svg>
