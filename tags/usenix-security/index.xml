@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usenix Security | Sanjay Kariyappa</title>
-    <link>/tags/usenix-security/</link>
-      <atom:link href="/tags/usenix-security/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/test2.github.io/tags/usenix-security/</link>
+      <atom:link href="http://localhost:1313/test2.github.io/tags/usenix-security/index.xml" rel="self" type="application/rss+xml" />
     <description>Usenix Security</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu6199962971166310543.png</url>
+      <url>http://localhost:1313/test2.github.io/media/icon_hu6199962971166310543.png</url>
       <title>Usenix Security</title>
-      <link>/tags/usenix-security/</link>
+      <link>http://localhost:1313/test2.github.io/tags/usenix-security/</link>
     </image>
     
     <item>
       <title>🎉 Our work &#34;Information Flow Control in Machine Learning through Modular Model Architecture&#34; was accepted at Usenix Security 2024!</title>
-      <link>/post/paper-ifc/</link>
+      <link>http://localhost:1313/test2.github.io/post/paper-ifc/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>/post/paper-ifc/</guid>
+      <guid>http://localhost:1313/test2.github.io/post/paper-ifc/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;In today&amp;rsquo;s machine learning (ML) models, any part of the training data can affect the model output. This lack of control for information flow from training data to model output is a major obstacle in training models on sensitive data when access control only allows individual users to access a subset of data. To enable secure machine learning for access-controlled data, we propose the notion of information flow control for machine learning, and develop an extension to the Transformer language model architecture that strictly adheres to the IFC definition we propose. Our architecture controls information flow by limiting the influence of training data from each security domain to a single expert module, and only enables a subset of experts at inference time based on the access control policy. The evaluation using large text and code datasets show that our proposed parametric IFC architecture has minimal (1.9%) performance overhead and can significantly improve model accuracy (by 38% for the text dataset, and between 44%–62% for the code datasets) by enabling training on access-controlled data.&lt;/p&gt;
 &lt;p&gt;Check out our &lt;a href=&#34;https://www.usenix.org/system/files/usenixsecurity24-tiwari.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/YNe__GrgBBA&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation&lt;/a&gt;&lt;/p&gt;
