@@ -2,149 +2,149 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Sanjay Kariyappa</title>
-    <link>http://localhost:1313/test2.github.io/publication/</link>
-      <atom:link href="http://localhost:1313/test2.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sanjaykariyappa.github.io/test2.github.io/publication/</link>
+      <atom:link href="https://sanjaykariyappa.github.io/test2.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/test2.github.io/media/icon_hu6199962971166310543.png</url>
+      <url>https://sanjaykariyappa.github.io/test2.github.io/media/icon_hu13815428273645719246.png</url>
       <title>Publications</title>
-      <link>http://localhost:1313/test2.github.io/publication/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/</link>
     </image>
     
     <item>
       <title>Information flow control in machine learning through modular model architecture</title>
-      <link>http://localhost:1313/test2.github.io/publication/tiwari-2024-information/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/tiwari-2024-information/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/tiwari-2024-information/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/tiwari-2024-information/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Progressive Inference: Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2024-progressive/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2024-progressive/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2024-progressive/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2024-progressive/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SHAP@ k: Efficient and Probably Approximately Correct (PAC) Identification of Top-k Features</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2024-shap/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2024-shap/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2024-shap/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2024-shap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bounding the invertibility of privacy-preserving instance encoding using fisher information</title>
-      <link>http://localhost:1313/test2.github.io/publication/maeng-2024-bounding/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/maeng-2024-bounding/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/maeng-2024-bounding/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/maeng-2024-bounding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cocktail party attack: Breaking aggregation-based privacy in federated learning using independent component analysis</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2023-cocktail/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2023-cocktail/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2023-cocktail/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2023-cocktail/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploit: Extracting private labels in split learning</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2023-exploit/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2023-exploit/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2023-exploit/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2023-exploit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy-Preserving Algorithmic Recourse</title>
-      <link>http://localhost:1313/test2.github.io/publication/pentyala-2023-privacy/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/pentyala-2023-privacy/</link>
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/pentyala-2023-privacy/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/pentyala-2023-privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bespoke cache enclaves: Fine-grained and scalable isolation from cache side-channels via flexible set-partitioning</title>
-      <link>http://localhost:1313/test2.github.io/publication/saileshwar-2021-bespoke/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/saileshwar-2021-bespoke/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/saileshwar-2021-bespoke/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/saileshwar-2021-bespoke/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enabling inference privacy with adaptive noise injection</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2021-enabling/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-enabling/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2021-enabling/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-enabling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Maze: Data-free model stealing attack using zeroth-order gradient estimation</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2021-maze/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-maze/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2021-maze/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-maze/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Noise-resilient DNN: tolerating noise in PCM-based AI accelerators via noise-aware training</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2021-noise/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-noise/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2021-noise/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-noise/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Protecting dnns from theft using an ensemble of diverse models</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2021-protecting/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-protecting/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2021-protecting/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2021-protecting/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Semantics Preserving Adversarial Examples</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappasemantics/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappasemantics/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappasemantics/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappasemantics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Defending against model stealing attacks with adaptive misinformation</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2020-defending/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2020-defending/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2020-defending/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2020-defending/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Enabling transparent memory-compression for commodity memory systems</title>
-      <link>http://localhost:1313/test2.github.io/publication/young-2019-enabling/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/young-2019-enabling/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/young-2019-enabling/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/young-2019-enabling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Improving adversarial robustness of ensembles with diversity training</title>
-      <link>http://localhost:1313/test2.github.io/publication/kariyappa-2019-improving/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2019-improving/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/kariyappa-2019-improving/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/kariyappa-2019-improving/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reducing the impact of phase-change memory conductance drift on the inference of large-scale hardware neural networks</title>
-      <link>http://localhost:1313/test2.github.io/publication/ambrogio-2019-reducing/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/publication/ambrogio-2019-reducing/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/publication/ambrogio-2019-reducing/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/publication/ambrogio-2019-reducing/</guid>
       <description></description>
     </item>
     

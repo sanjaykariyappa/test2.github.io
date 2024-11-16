@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ICML | Sanjay Kariyappa</title>
-    <link>http://localhost:1313/test2.github.io/tags/icml/</link>
-      <atom:link href="http://localhost:1313/test2.github.io/tags/icml/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://sanjaykariyappa.github.io/test2.github.io/tags/icml/</link>
+      <atom:link href="https://sanjaykariyappa.github.io/test2.github.io/tags/icml/index.xml" rel="self" type="application/rss+xml" />
     <description>ICML</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/test2.github.io/media/icon_hu6199962971166310543.png</url>
+      <url>https://sanjaykariyappa.github.io/test2.github.io/media/icon_hu13815428273645719246.png</url>
       <title>ICML</title>
-      <link>http://localhost:1313/test2.github.io/tags/icml/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/tags/icml/</link>
     </image>
     
     <item>
       <title>🎉 Our work &#34;Progressive Inference- Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions&#34; was accepted at ICML 2024!</title>
-      <link>http://localhost:1313/test2.github.io/post/paper-pi/</link>
+      <link>https://sanjaykariyappa.github.io/test2.github.io/post/paper-pi/</link>
       <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2.github.io/post/paper-pi/</guid>
+      <guid>https://sanjaykariyappa.github.io/test2.github.io/post/paper-pi/</guid>
       <description>&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
 &lt;p&gt;This paper proposes Progressive inference–a framework to explain the predictions of decoder-only transformer models trained to perform sequence classification tasks. Our work is based on the insight that the classification head of a decoder-only model can be used to make intermediate predictions by evaluating them at different points in the input sequence. Due to the masked attention mechanism used in decoder-only models, these intermediate predictions only depend on the tokens seen before the inference point, allowing us to obtain the model’s prediction on a masked input sub-sequence, with negligible computational overheads. We develop two methods to provide sub-sequence level attributions using this core insight. First, we propose Single Pass-Progressive Inference (SP-PI) to compute attributions by simply taking the difference between intermediate predictions. Second, we exploit a connection with Kernel SHAP to develop Multi Pass-Progressive Inference (MP-PI); this uses intermediate predictions from multiple masked versions of the input to compute higher-quality attributions that approximate SHAP values. We perform studies on several text classification datasets to demonstrate that our proposal provides better explanations compared to prior work, both in the single-pass and multi-pass settings.&lt;/p&gt;
 &lt;p&gt;Check out our &lt;a href=&#34;https://proceedings.mlr.press/v235/kariyappa24a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;full paper&lt;/a&gt; and &lt;a href=&#34;https://icml.cc/media/PosterPDFs/ICML%202024/33394.png?t=1719282976.20858&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;poster&lt;/a&gt;&lt;/p&gt;
