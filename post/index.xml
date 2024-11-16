@@ -5,21 +5,12 @@
     <link>http://localhost:1313/post/</link>
       <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 13 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu6199962971166310543.png</url>
       <title>Blog</title>
       <link>http://localhost:1313/post/</link>
     </image>
-    
-    <item>
-      <title>🚀 I&#39;ll be joining Nvidia Research to work on AI Security and Privacy.</title>
-      <link>http://localhost:1313/post/joining-nvidia/</link>
-      <pubDate>Wed, 13 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/joining-nvidia/</guid>
-      <description>&lt;p&gt;After almost 2 years at JP Morgan&amp;rsquo;s &lt;a href=&#34;https://www.jpmorgan.com/technology/artificial-intelligence/initiatives/explainable-ai-center-of-excellence&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Explainable AI CoE&lt;/a&gt;, I&amp;rsquo;ve decided to take up a new role at Nvidia Research, where I&amp;rsquo;ll be focusing on AI Security and Privacy.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>🎉 Our work &#34;Progressive Inference- Explaining Decoder-Only Sequence Classification Models Using Intermediate Predictions&#34; was accepted at ICML 2024!</title>
